@@ -3,6 +3,11 @@ import multiprocessing as mp
 import numpy as np
 import pandas as pd
 import os
+from datetime import datetime
+import pytz
+  
+
+
 
 """ VERIFICATION UTILS """
 def run_sample_tqdm():
@@ -32,3 +37,7 @@ def pd_parallel_apply(Series, fun):
 # downloads content from drive
 def download_drive(id, name):
     os.system(f"sudo wget --load-cookies /tmp/cookies.txt 'https://docs.google.com/uc?export=download&confirm=t&id={id}' -O {name} && rm -rf /tmp/cookies.txt")
+
+def get_current_time(utc=False):
+    TZ = pytz.timezone('Asia/Kolkata') if not utc else pytz.utc
+    return datetime.now(TZ).strftime('%Y:%m:%d %H:%M:%S %Z %z')

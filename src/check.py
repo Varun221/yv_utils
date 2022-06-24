@@ -7,4 +7,4 @@ def fun(x):
 
 
 if __name__ == '__main__':
-    m = yv.pd_parallel_apply(pd.Series([np.arange(100)]), fun)
+    print(yv.get_current_time(utc=False))
