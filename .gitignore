@@ -1,2 +1,3 @@
 dist/*
-yv_utils/__pycache__
+src/yv_utils/__pycache__
+src/yv_utils.egg-info
