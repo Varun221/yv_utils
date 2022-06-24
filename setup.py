@@ -9,7 +9,7 @@ setup(
     author_email='yerram.varun@gmail.com',
     packages=find_packages('src', exclude=['.git']),
     package_dir={'': 'src'},
-    # url='https://github.com/gmyrianthous/example-publish-pypi',
+    url='https://github.com/Varun221/yv_utils',
     keywords='utils package',
     install_requires=[
           'tqdm',
