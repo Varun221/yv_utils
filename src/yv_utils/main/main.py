@@ -11,6 +11,9 @@ import gc
 # needed imports
 from sklearnex import patch_sklearn
 
+# other files
+from .nlp_help import *
+
 """ ENV SETUP """
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
