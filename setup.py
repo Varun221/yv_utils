@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yv_utils',
-    version='0.9',
+    version='1.0',
     license='MIT',
     author="Yerram Varun",
     author_email='yerram.varun@gmail.com',
@@ -11,9 +11,12 @@ setup(
     package_dir={'': 'src'},
     url='https://github.com/Varun221/yv_utils',
     keywords='utils package',
+    # install general use packages
     install_requires=[
           'tqdm',
-          'pandas'
+          'pandas',
+          'scikit-learn-intelex',
+          'scikit-learn',
       ],
 
 )
