@@ -7,4 +7,5 @@ def fun(x):
 
 
 if __name__ == '__main__':
-    print(yv.get_current_time(utc=False))
+    g = yv.downLoad_glove()
+    print(g['help'].shape)
