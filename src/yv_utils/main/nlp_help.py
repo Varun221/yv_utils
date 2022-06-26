@@ -1,7 +1,6 @@
 from tqdm.auto import tqdm
 import os
 import numpy as np
-import wget
 
 # download glove
 def downLoad_glove(dir='.', dim=50):
