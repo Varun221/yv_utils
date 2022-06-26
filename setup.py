@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yv_utils',
-    version='0.6',
+    version='0.7',
     license='MIT',
     author="Yerram Varun",
     author_email='yerram.varun@gmail.com',
