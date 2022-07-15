@@ -15,6 +15,7 @@ script_loop_multiprocessing = '''
     def process_i(i):
         # Here write the thing you want to do with "i"
         # As an example I will read the value in the dataframe column and write it into a file
+        
         txt = df['text'][i]
         with open("text.txt", "a") as f:
             f.write(txt+'\\n')
