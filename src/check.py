@@ -7,5 +7,7 @@ def fun(x):
 
 
 if __name__ == '__main__':
-    g = yv.downLoad_glove()
-    print(g['help'].shape)
+    a = '''
+    hello
+    '''
+    print(yv.script_loop_multiprocessing)
